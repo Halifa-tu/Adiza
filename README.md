@@ -1,0 +1,2 @@
+# Adiza
+A simple website
