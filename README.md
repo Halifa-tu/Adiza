@@ -1,4 +1,4 @@
 
-# Food Website Project's
+#  Website Project's
 
 ## This is simple frontend project made with HTML, CSS, SASS, & JavaScript.
