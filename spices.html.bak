@@ -1,0 +1,338 @@
+<!-- --﷽-- -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adiza's natural spices</title>
+	
+    <link
+      rel="shortcut icon"
+      href="./images/title-logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+    <!-- ====markup header element==== -->
+    <header class="header">
+      <!-- ---header logo--- -->
+      <div class="header-logo">
+        <img src="./images/logo-img.png" alt="logo" />
+      </div>
+
+      <!-- ---navigation--- -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#menu">menu</a>
+          </li>
+          <li>
+            <a href="#popular">popular</a>
+          </li>
+          <li>
+            <a href="#gallery">gallery</a>
+          </li>
+          <li>
+            <a href="#order">order</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ---menu bar--- -->
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====markup main element==== -->
+
+    <main>
+      <!-- ====markup home section==== -->
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>Spice up your life with our natural flavors</h1>
+          <p>
+            Dealers in natural spices production. We blend and mix purely natural spices for different dishes and tastes.
+          </p>
+         
+        </div>
+
+        <div class="home-image">
+          <img src="./images/home-img.png" alt="Net Error" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2> Briefly about us</h2>
+          <p>
+            Our natural spices business specializes in providing high-quality, organic spices sourced from around the world.</br> We offer a wide range of aromatic and flavorful spices such as cinnamon, turmeric, cumin, paprika, and more. </br>Our products are carefully selected to ensure freshness, purity, and rich flavors, making them perfect for enhancing the taste of your culinary creations. 
+			</br>Whether you're a professional chef or a home cook, our natural spices will elevate the quality of your dishes and bring a delightful burst of flavor to your meals.
+
+          </p>
+      
+
+        
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="menu" class="menu">
+        <h2>Briely read about few products from us <span>with some benefits of naturul spices</span></h2>
+        <div class="catagory">
+          
+			
+          <img id="c-img" src="./images/menu-dinner.jpg" alt="Net Error" />
+		  <div class="menu-content">
+          <div class="info">
+            <h3>We serve best natural ginger and garlic spices</h3>
+            <p>
+              Natural spices are derived from plants and offer a wide range of flavors and aromas that can enhance the taste of various dishes.
+            </p>
+          </div>
+		   <img id="c-img" src="./images/menu-desert.jpg" alt="Net Error" />
+		    <div class="info">
+            <h3>We serve best natural spices for seasoning</h3>
+            <p>
+              They are a great way to add depth and complexity to your cooking without relying on artificial additives or preservatives
+            </p>
+          </div>
+		    <img id="c-img" src="./images/menu-breakfast.jpg" alt="Net Error" />
+			 <!-- ---info content 03--- -->
+          <div class="info">
+            <h3>We serve best stew and soup natural spices</h3>
+            <p>
+                Natural spices contain powerful antioxidants and other beneficial compounds that may contribute to </br>overall health and well-being when consumed as part of a balanced diet.
+            </p>
+          </div>
+		    <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+			
+			
+		  
+        </div>
+
+       
+
+     
+
+          
+
+         
+        </div>
+      </section>
+
+      <!-- ====markup popular section==== -->
+      <section id="popular" class="popular">
+        <h2>our most <span>popular</span> products</h2>
+
+        <div class="popular-content">
+          <!-- ---card 01--- -->
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>Garlic and ginger powder</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">GH 10.00</p>
+            
+          </div>
+
+          <!-- ---card 02--- -->
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>All in one meat seasoner</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">GH 10.00</p>
+            
+          </div>
+
+          <!-- ---card 03--- -->
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4> Spices for noodles </h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">GH 10.00</p>
+         
+          </div>
+
+          <!-- ---card 04--- -->
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>Our spices for soup and stew</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">GH 10.00</p>
+         
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="gallery" class="gallery">
+        <h2>our spices <span>gallery</span></h2>
+
+        <div class="gallery-content">
+          <!-- ---gallery card 01--- -->
+          <div class="g-card">
+            <img src="./images/img1.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+
+          <!-- ---gallery card 02--- -->
+          <div class="g-card">
+            <img src="./images/img2.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+
+          <!-- ---gallery card 03--- -->
+          <div class="g-card">
+            <img src="./images/img3.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+
+          <!-- ---gallery card 04--- -->
+          <div class="g-card">
+            <img src="./images/img4.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+
+          <!-- ---gallery card 05--- -->
+          <div class="g-card">
+            <img src="./images/img5.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+
+          <!-- ---gallery card 06--- -->
+          <div class="g-card">
+            <img src="./images/img6.jpg" alt="Net Error" />
+            <h3>Adiza's natural spices</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="order" class="order">
+        <h2>make an <span>order or enquiry</span></h2>
+
+        <div class="order-content">
+          <form action="#" class="order-form" autocomplete="off">
+            <input type="text" placeholder="name" required />
+            <input type="email" placeholder="email" required />
+            
+            <input type="number" placeholder="phone Number" required />
+            <textarea cols="30" rows="8" placeholder="Message"></textarea>
+			<p><a href="mailto:moroa6207@gmail.com"></a></p>
+
+            <button type="submit">Submit</button>
+          </form>
+          <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+      </section>
+    </main>
+
+    <!-- ====markup footer element==== -->
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>contact info</h4>
+        
+        <p><i class="fas fa-envelope"></i> <span>moroa6207@gmail.com</span></p>
+        <p><i class="fas fa-phone"></i> <span>+233 244037991</span></p>
+        
+      </div>
+
+      <div class="location">
+        <h4>Location</h4>
+        <ul>
+          <li><a href="#">Accra, opposite cocoa board</a></li>
+          
+    
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#popular">popular</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#order">order</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>follow us</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="blank">instagram</a>
+          </li>
+          <li><a href="https://www.twitter.com" target="blank">twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="blank">linkedin</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2024 || &copy all right reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ----linked main.js file---- -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
+
+<!-- happy coding!!!! -->
+<!-- this project made by Fahad at 27th April, 2022. -->
